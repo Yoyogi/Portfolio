@@ -1,4 +1,4 @@
-<div id="menu">
+<nav>
     <div class="entete_menu">Menu de navigation</div>
     <div id="element_menu">
         <ul>
@@ -8,4 +8,4 @@
             <li><a href="">Contact</a></li>
         </ul>
     </div>
-</div>
+</nav>

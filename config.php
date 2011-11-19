@@ -1,11 +1,13 @@
 <?php
 /* nom des fichiers principaux */
-$controller_file = "config.php";
-$entete_file = "entete.php";
+$controler_file = "controler.php";
+$header_file = "header.php";
 $menu_file = "menu.php";
+$footer_file = "footer.php";
 
 /* nom des fichiers de style */
-$styleGeneral_file = "style/styleGeneral.php";
-$styleEntete_file = "style/styleEntete.php";
-$styleMenu_file = "style/styleMenu.php";
+$styleGeneral_file = "style/styleGeneral.css";
+
+/* nom des fichiers de page */
+$index_file = "accueil.php";
 ?>

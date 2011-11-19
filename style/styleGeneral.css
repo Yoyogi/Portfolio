@@ -1,17 +1,22 @@
-/* 
-    Document   : styleGeneral
-    Created on : 16 nov. 2011, 14:45:32
-    Author     : Yoyogi
-    Description:
-        Purpose of the stylesheet follows.
-*/
-
-/* 
-   TODO customize this sample style
-   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
-*/
-
-root { 
-    display: block;
+header {
+    height: 100px;
+    background-color: #006666;
 }
 
+footer {
+    height: 30px;
+    background-color: #006666;
+    
+    text-align: center;
+    clear: both;
+}
+
+nav {
+    float: left;
+    padding: 10px;
+    background-color: #006666;
+}
+
+section {
+    padding: 10px;
+}
