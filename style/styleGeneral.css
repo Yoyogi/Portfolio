@@ -1,22 +1,32 @@
 header {
     height: 100px;
-    background-color: #006666;
+    background-color: #053944;
+    border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius: 4px;
+    margin-bottom: 2px;
 }
 
 footer {
-    height: 30px;
-    background-color: #006666;
+    height: 25px;
+    background-color: #053944;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 25px;
     
     text-align: center;
     clear: both;
+    border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius: 4px;
+    margin-top: 2px;
 }
 
-nav {
-    float: left;
-    padding: 10px;
-    background-color: #006666;
+nav ul li a {
+    height: 18px;
+    line-height: 18px;
 }
 
 section {
+    clear: both;
     padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius: 4px;
 }

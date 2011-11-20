@@ -7,6 +7,7 @@ $footer_file = "footer.php";
 
 /* nom des fichiers de style */
 $styleGeneral_file = "style/styleGeneral.css";
+$styleMenu_file = "style/styleMenu.css";
 
 /* nom des fichiers de page */
 $index_file = "accueil.php";
