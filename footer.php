@@ -1,0 +1,1 @@
+<footer><b>Site sous copyright, tous droits r&eacute;serv&eacute;s</b></footer>
