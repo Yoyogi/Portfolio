@@ -23,8 +23,6 @@ include $controler_file;
     <head>
         <title><?php echo $title; ?></title>
         <meta name="description" content="<?php echo $metadescription; ?>" />
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta http-equiv="Content-Language" content="fr" />
         <link href="<?php echo $styleGeneral_file; ?>" rel="stylesheet" type="text/css" media="screen,print" />
         <link href="<?php echo $styleMenu_file; ?>" rel="stylesheet" type="text/css" media="screen,print" />
     </head>
@@ -32,6 +30,10 @@ include $controler_file;
     <body>
         <?php
             include $body;
+        ?>
+        
+        <?php
+//            include $footer_file;
         ?>
     </body>
 </html>
