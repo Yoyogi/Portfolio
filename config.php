@@ -11,4 +11,9 @@ $styleMenu_file = "style/styleMenu.css";
 
 /* nom des fichiers de page */
 $index_file = "accueil.php";
+$contact_file = "content/contact.php";
+$experience_file = "content/experience.php";
+$formation_file = "content/formation.php";
+$projects_file = "content/projects.php";
+$mail_file = "content/forwardMail.php";
 ?>

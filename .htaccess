@@ -5,3 +5,4 @@ AddDefaultCharset UTF-8
 
 # ------ Réécriture index
 RewriteRule ^accueil.htm$ index.php?&page=main [L,QSA]
+RewriteRule ^envoyer-mail.htm$ index.php?&page=mail [L,QSA]
