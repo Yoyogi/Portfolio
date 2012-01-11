@@ -25,7 +25,6 @@ header {
 }
 
 footer {
-    position: relative;
     height: 25px;
     width: 800px;
     background-color: #053944;
@@ -60,31 +59,48 @@ section {
     border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius: 4px;
 }
 
+#accueilContent {
+    position: absolute;
+    width: 800px;
+    min-height: 500px;
+    
+    padding: 20px;
+    
+    font: 14px Trebuchet MS;
+    letter-spacing: 1px;
+}
 #formationContent {
     position: absolute;
     width: 800px;
-    height: 500px;
+    min-height: 500px;
     
     padding: 20px;
 }
 #expContent {
     position: absolute;
     width: 800px;
-    height: 500px;
+    min-height: 500px;
     
     padding: 20px;
 }
 #projectsContent {
     position: absolute;
     width: 800px;
-    height: 500px;
+    min-height: 500px;
     
     padding: 20px;
 }
 #contactContent {
     position: absolute;
     width: 800px;
-    height: 500px;
+    min-height: 500px;
+    
+    padding: 20px;
+}
+#errorContent {
+    position: absolute;
+    width: 800px;
+    min-height: 500px;
     
     padding: 20px;
 }
@@ -93,31 +109,13 @@ section {
     position: relative;
     margin:auto;
     width: 800px;
-    height: 500px;
+    min-height: 550px;
     
     border: 1px solid black;
     border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius: 4px;
 }
 
 .test {
-    left: -2000px;
-    opacity: 0;
-    /* animation */
-    -webkit-transition: left 1s, opacity 0.3s, -webkit-transform 1s;
-    -moz-transition: left 1s, opacity 0.3s, -moz-transform 1s;
-    transition: left 1s, opacity 0.3s, transform 1s;
-}
-
-.animate {
-    left: 0px;
-    opacity: 1;
-    /* animation */
-    -webkit-transition: left 1s, opacity 1s ease-in, -webkit-transform 1s;
-    -moz-transition: left 1s, opacity 1s ease-in, -moz-transform 1s;
-    transition: left 1s, opacity 1s ease-in, transform 1s;
-}
-
-.deanimate {
     left: -2000px;
     opacity: 0;
     /* animation */
@@ -158,6 +156,17 @@ section {
     letter-spacing: 5px;
 }
 
+#captcha {
+    position: relative;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
+#captcha div {
+    margin: auto;
+}
+
 /***************************************************************/
 /***** PAGE CONTACT *****/
 /***************************************************************/
@@ -196,13 +205,15 @@ textarea {
     letter-spacing: 1px;
 }
 
-.button {
-    position: relative;
-    left: 300px;
-}
 .clear { /* generic container (i.e. div) for floating buttons */
     overflow: hidden;
     width: 100%;
+}
+
+.button {
+    position: relative;
+    left: 300px;
+    margin-top: 10px;
 }
 a.button {
     background: transparent url('bg_button_a.gif') no-repeat scroll top right;
@@ -266,9 +277,6 @@ a.button:active span {
     font: 20px Trebuchet MS;
 }
 
-.section_content {
-}
-
 .section_subtitle {
     font: 14px Trebuchet MS;
     font-weight: bold;
@@ -311,16 +319,10 @@ a.button:active span {
     margin-top: 5px;
 }
 
-.exp_lieu {
-    
-}
-
 .exp_poste {
     font-weight: bold;
-}
-
-.exp_sujet {
-    
+    color: #455661;
+    letter-spacing: 1px;
 }
 
 .exp_title {
@@ -362,29 +364,43 @@ a.button:active span {
 /***************************************************************/
 
 #pro_table {
-    
+    width: 760px;
+    border-collapse: collapse;
+    font-family: Trebuchet MS;
 }
 
-.pro_content {
-    
-}
-
-.pro_descr {
-    
-}
-
-.pro_img {
-    
-}
-
-.pro_lang {
-    
-}
-
-.pro_section {
-    
+.pro_section td {
+    border-top: 1px dotted black;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .pro_title {
-    
+    color: #788993;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.pro_lang_content {
+    color: #455661;
+    letter-spacing: 1px;
+}
+
+.pro_lang {
+    font-weight: bold;
+}
+
+.pro_content {
+    text-align: justify;
+    padding-right: 40px;
+}
+
+.pro_img {
+    width: 130px;
+    vertical-align: top;
+    text-align: right;
+}
+
+.pro_img a img {
+    width: 130px;
 }
